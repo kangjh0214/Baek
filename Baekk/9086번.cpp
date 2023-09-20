@@ -10,4 +10,4 @@ int main() {
         cin >> k;
         cout << k[0] << k[k.size() - 1] << '\n';
     }
-}
+}   
