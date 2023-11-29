@@ -16,20 +16,20 @@ int main()
 	int num;
 
 	cin >> num;
-	for (int i = 0; i < num; i++) 
+	for (int i = 0; i < num; i++)
 	{
 		cin >> name >> state;
 		if (state == "enter")
 		{
 			people.insert(name);
 		}
-		else 
+		else
 		{
 			people.erase(name);
 		}
 	}
 
-	for (auto ngm : people) 
+	for (auto ngm : people)
 	{
 		cout << ngm << "\n";
 	}
